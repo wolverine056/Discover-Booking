@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defacultHref="/places/tabs/offers"></ion-back-button>
+    </ion-buttons>
+    <ion-title>offer booking{{places.title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-button margin color="primary" [routerLink]="['/','places','tabs','offers','edit',places.id]">Edit</ion-button>
+</ion-content>
